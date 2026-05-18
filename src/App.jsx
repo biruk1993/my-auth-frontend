@@ -8,7 +8,7 @@ function App() {
   // Function to handle Registration
   const handleRegister = async (e) => {
     e.preventDefault();
-   const response = await fetch('https://my-auth-backend-m0tj.onrender.com', {
+   const response = await fetch('https://onrender.com', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ fullName })
@@ -22,7 +22,7 @@ function App() {
   // Function to handle Login
   const handleLogin = async (e) => {
     e.preventDefault();
-   const response = await fetch('https://my-auth-backend-m0tj.onrender.com', {
+   const response = await fetch('https://onrender.com', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ fullName })
